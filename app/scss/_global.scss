@@ -4,6 +4,11 @@ body {
 }
 
 body {
+  @extend %sf-400;
+  font-size: 24px;
+  line-height: 29px;
+  color: $default;
+  background-color: $default-2;
 }
 
 .lock {
@@ -33,14 +38,35 @@ body {
 }
 
 .container {
-  max-width: 1180px;
+  max-width: 1430px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-// style
+.section {
+  padding: 100px 0;
+}
 
+.title {
+  @extend %sf-500;
+  font-size: 64px;
+  line-height: 76px;
+  text-transform: lowercase;
+  color: $default;
+}
+
+.link {
+  display: inline-block;
+  min-height: 55px;
+  padding: 16px 24px;
+  @extend %sf-400;
+  font-size: 32px;
+  line-height: 38px;
+  color: $default-2;
+  background: $accent;
+  border-radius: 32px;
+}
 // burger
 .burger {
   position: relative;

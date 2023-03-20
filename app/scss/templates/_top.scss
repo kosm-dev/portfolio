@@ -1,0 +1,32 @@
+.top {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__content {
+    margin-right: 30px;
+    padding-top: 100px;
+    flex-shrink: 1;
+    flex-basis: 500px;
+  }
+  &__title {
+    text-transform: capitalize;
+    margin-bottom: 70px;
+  }
+  &__text {
+    margin-bottom: 70px;
+    font-size: 32px;
+    line-height: 38px;
+  }
+  &__link-box {
+  }
+  &__link {
+  }
+  &__img {
+    flex-shrink: 1;
+    flex-basis: 650px;
+  }
+}
+
+.link {
+}

@@ -1,0 +1,34 @@
+.header {
+  padding: 40px 0 0;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    padding-right: 20px;
+  }
+  &__menu {
+  }
+}
+
+.logo {
+  &__img {
+  }
+}
+.menu {
+  &__list {
+    display: flex;
+    gap: 10px 32px;
+  }
+  &__list-link {
+    display: inline-block;
+    padding: 8px 16px;
+    transition: all 0.2s;
+    border-radius: 32px;
+  }
+  &__list-link:hover {
+    background-color: $accent;
+    color: $default-2;
+  }
+}

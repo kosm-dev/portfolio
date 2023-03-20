@@ -5,3 +5,26 @@ $lg: 992px;
 $md: 768px;
 $sm: 576px;
 $xs: 374px;
+
+// color
+$default: #232323;
+$default-2: #f4f4f4;
+
+$accent: #782bf5;
+
+// fonts
+
+%sf-400 {
+  font-family: "SFProDisplay-Regular", sans-serif;
+  font-weight: 400;
+}
+
+%sf-500 {
+  font-family: "SFProDisplay-Medium", sans-serif;
+  font-weight: 500;
+}
+
+%sf-700 {
+  font-family: "SFProDisplay-Bold", sans-serif;
+  font-weight: 700;
+}
